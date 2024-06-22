@@ -1,4 +1,4 @@
-# Trabalho Final-Arduino
+# Documentação Lixeira Automática
 
 # Introdução
 
@@ -38,33 +38,4 @@ Código:
 
 <a href="Codigo.cpp">Pasta do código do arduino</a>
 
-
-5. Resultados
-5.1. Testes Realizados
-Descreva os testes que foram realizados para garantir o funcionamento correto do sistema:
-
-Teste de detecção de proximidade.
-Teste de abertura e fechamento da tampa.
-5.2. Resultados Obtidos
-Apresente os resultados:
-"Durante os testes, a lixeira abriu corretamente a tampa quando um objeto foi detectado a uma distância inferior a 30 cm e fechou a tampa após 5 segundos. O sistema funcionou de maneira consistente e conforme o esperado."
-
-6. Conclusão
-6.1. Avaliação do Projeto
-Faça uma avaliação crítica do projeto:
-"O projeto foi bem-sucedido em criar uma lixeira automática funcional. O sistema atendeu aos requisitos iniciais de operação sem contato e eficiência no consumo de energia."
-
-6.2. Possíveis Melhorias
-Sugira melhorias para projetos futuros:
-
-Implementação de um sensor infravermelho para melhorar a detecção.
-Uso de um motor DC com encoder para maior precisão no controle da tampa.
-Integração com uma fonte de energia renovável para operação sustentável.
-7. Referências
-Liste todas as fontes e referências usadas na realização do projeto:
-
-Documentação do Arduino: https://www.arduino.cc/
-Tutoriais de sensores ultrassônicos e servo motores.
-8. Anexos
-Inclua qualquer material adicional relevante, como diagramas de circuito detalhados, fotos da montagem final, e outros documentos úteis.
 
