@@ -28,23 +28,7 @@ Esquema de Circuito:
 
 <img src="Lixeira Auto.png" alt="Esquema do Circuito" />
 
-arduino
-Copiar código
-[Imagem ou descrição detalhada do circuito]
-3.2. Montagem Passo a Passo
-Descreva o processo de montagem:
-
-Conecte o sensor de proximidade ao Arduino:
-VCC ao 5V
-GND ao GND
-Trig ao pino digital 9
-Echo ao pino digital 10
-Conecte o servo motor ao Arduino:
-Sinal ao pino digital 11
-VCC ao 5V
-GND ao GND
-Certifique-se de que todas as conexões estão firmes e corretas.
-4. Desenvolvimento do Software
+# Desenvolvimento do Software
 4.1. Algoritmo
 Explique a lógica do algoritmo:
 "O algoritmo principal detecta a presença de um objeto a uma distância inferior a 30 cm utilizando o sensor ultrassônico. Quando um objeto é detectado, o servo motor gira para abrir a tampa. Após um atraso de 5 segundos, o servo motor retorna à posição inicial para fechar a tampa."
