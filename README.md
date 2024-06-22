@@ -11,17 +11,18 @@ Justificativa:
 A lixeira automática visa reduzir a necessidade de contato físico com a tampa, diminuindo a propagação de germes e melhorando a higiene em ambientes domésticos e públicos.
 
 # Planejamento
-2.1. Definição dos Requisitos
-Liste os requisitos funcionais e não funcionais do projeto:
+
+Definição dos Requisitos:
 
 Funcionais: Detectar a proximidade de um objeto, abrir a tampa automaticamente, fechar a tampa após um determinado tempo.
+
 Não funcionais: Operação silenciosa, baixo consumo de energia, robustez do sistema.
-2.2. Ferramentas e Materiais
-Liste todos os componentes e ferramentas utilizadas:
+
+# Ferramentas e Materiais:
 
 Componentes: Arduino Uno, sensor de proximidade (ultrassônico), servo motor, resistores, fios de conexão, breadboard.
-Ferramentas: Ferro de solda, multímetro, computador com software Arduino IDE.
-3. Montagem do Hardware
+
+# Montagem do Hardware
 3.1. Esquema de Circuito
 Inclua um diagrama esquemático do circuito. Você pode usar softwares como Fritzing para criar o diagrama.
 
