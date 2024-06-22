@@ -26,7 +26,7 @@ Componentes: Arduino Uno, sensor de proximidade (ultrassônico), servo motor, re
 
 Esquema de Circuito:
 
-<img src="Lixeira Auto.png" alt="Esquema do Circuito" />
+<img src="foto.png" alt="Esquema do Circuito" />
 
 # Desenvolvimento do Software
 
