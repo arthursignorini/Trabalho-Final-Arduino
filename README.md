@@ -36,7 +36,7 @@ O algoritmo principal detecta a presença de um objeto a uma distância inferior
 
 Código:
 
-<a href="outra-pagina.html">Pasta do código do arduino</a>
+<a href="Codigo.cpp">Pasta do código do arduino</a>
 
 
 5. Resultados
