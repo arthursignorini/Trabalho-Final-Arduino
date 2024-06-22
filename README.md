@@ -29,49 +29,16 @@ Esquema de Circuito:
 <img src="Lixeira Auto.png" alt="Esquema do Circuito" />
 
 # Desenvolvimento do Software
-4.1. Algoritmo
-Explique a lógica do algoritmo:
-"O algoritmo principal detecta a presença de um objeto a uma distância inferior a 30 cm utilizando o sensor ultrassônico. Quando um objeto é detectado, o servo motor gira para abrir a tampa. Após um atraso de 5 segundos, o servo motor retorna à posição inicial para fechar a tampa."
 
-4.2. Código
-Inclua o código comentado:
+Algoritmo:
 
-cpp
-Copiar código
-#include <Servo.h>
+O algoritmo principal detecta a presença de um objeto a uma distância inferior a 50 cm utilizando o sensor ultrassônico. Quando um objeto é detectado, o servo motor gira para abrir a tampa. Após um atraso de 3 segundos, o servo motor retorna à posição inicial para fechar a tampa.
 
-Servo myservo;  // cria o objeto servo para controlar o motor
-int trigPin = 9;    // define o pino Trig do sensor
-int echoPin = 10;   // define o pino Echo do sensor
-int servoPin = 11;  // define o pino do servo motor
-long duration;      // variável para o tempo de viagem do som
-int distance;       // variável para a distância calculada
+Código:
 
-void setup() {
-  myservo.attach(servoPin);  // conecta o servo ao pino 11
-  pinMode(trigPin, OUTPUT);  // define o trigPin como saída
-  pinMode(echoPin, INPUT);   // define o echoPin como entrada
-  Serial.begin(9600);        // inicia a comunicação serial
-}
+<a href="outra-pagina.html">Pasta do código do arduino</a>
 
-void loop() {
-  digitalWrite(trigPin, LOW);  // limpa o trigPin
-  delayMicroseconds(2);
-  digitalWrite(trigPin, HIGH); // define o trigPin como HIGH por 10 microssegundos
-  delayMicroseconds(10);
-  digitalWrite(trigPin, LOW);
-  
-  duration = pulseIn(echoPin, HIGH);  // lê o tempo de viagem do pulso em microsegundos
-  distance = duration * 0.034 / 2;    // calcula a distância em centímetros
-  
-  if (distance < 30) {  // se a distância for menor que 30 cm
-    myservo.write(90);  // abre a tampa (90 graus)
-    delay(5000);        // espera 5 segundos
-    myservo.write(0);   // fecha a tampa (0 graus)
-  }
-  
-  delay(200);  // pequena pausa para estabilização
-}
+
 5. Resultados
 5.1. Testes Realizados
 Descreva os testes que foram realizados para garantir o funcionamento correto do sistema:
