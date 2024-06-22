@@ -23,8 +23,10 @@ Não funcionais: Operação silenciosa, baixo consumo de energia, robustez do si
 Componentes: Arduino Uno, sensor de proximidade (ultrassônico), servo motor, resistores, fios de conexão, breadboard.
 
 # Montagem do Hardware
-3.1. Esquema de Circuito
-Inclua um diagrama esquemático do circuito. Você pode usar softwares como Fritzing para criar o diagrama.
+
+Esquema de Circuito:
+
+<img src="Lixeira Auto.png" alt="Esquema do Circuito" />
 
 arduino
 Copiar código
